@@ -1,0 +1,232 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #eeebe5 url("../images/layout/background-body.png") repeat center top;
+  color: #323232;
+  font-family: "Libre Baskerville", serif;
+  font-size: 19px;
+  line-height: 1.4;
+  min-width: 715px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+a {
+  color: #323232;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+
+.sticky-footer {
+  min-height: 100%;
+}
+.page-header {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.page-header .pattern {
+  background: #20545a url("../images/layout/background-pattern-header.png") repeat left top;
+  border-bottom: 2px solid #32868f;
+  box-shadow: #000 0 3px 4px;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+}
+.page-header .logo {
+  background: transparent url("../images/layout/border-pattern-header.png") repeat-x center bottom;
+  padding: 15px 0 40px 0;
+}
+.page-header .logo img {
+  height: auto;
+  max-width: 100%;
+}
+.page-header nav {
+  background: transparent url("../images/layout/background-pattern-crossout-navigation.png") repeat-x center bottom;
+  display: block;
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  padding: 22px 0 29px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 5;
+}
+.page-header nav ul {
+  background: transparent url("../images/layout/background-pattern-navigation.png") repeat center center;
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 -1px;
+  padding: 0 10px;
+}
+.page-header nav li,
+.page-header nav li a {
+  color: #2d2d2d;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.page-header nav li {
+  padding: 0 15px;
+}
+.page-header nav li a .bullet-right {
+  display: inline-block;
+  padding: 0 15px;
+}
+.page-header nav li a:hover,
+.page-header nav li a.current {
+  background: transparent url("../images/layout/bullet.png") no-repeat left center;
+}
+.page-header nav li a:hover .bullet-right,
+.page-header nav li a.current .bullet-right {
+  background: transparent url("../images/layout/bullet.png") no-repeat right center;
+}
+
+
+.page-content {
+  background: transparent url("../images/layout/content-edge.png") no-repeat center top;
+  min-height: 200px;
+  padding-bottom: 95px;
+  padding-top: 60px;
+  position: relative;
+  margin-top: 490px;
+  text-align: center;
+  z-index: 5;
+}
+.homepage-content {
+  color: #fff;
+  font-family: "Raleway", serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin: 0 auto;
+  min-height: 900px;
+  padding-bottom: 95px;
+  padding-top: 40px;
+  position: relative;
+  text-align: center;
+  z-index: 5;
+  width: 509px;
+}
+.homepage-content p {
+  margin: 0 0;
+}
+.homepage-content .padded {
+  margin: 7px 0;
+}
+.homepage-content h2,
+.homepage-content .as-h2 {
+  font-size: 44px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.homepage-content h2 sup,
+.homepage-content .as-h2 sup{
+  text-transform: none;
+}
+.homepage-content .text {
+  font-family: "Lora", serif;
+  font-size: 31px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.page-content h1 {
+  background: transparent url("../images/layout/background-header.png") no-repeat left center;
+  color: #fff;
+  display: inline-block;
+  font-size: 27px;
+  font-weight: 700;
+  height: 65px;
+  line-height: 65px;
+  margin: 0 215px 0 0;
+  padding-left: 215px;
+  position: relative;
+  text-transform: uppercase;
+}
+.page-content h1 .border-right {
+  background: transparent url("../images/layout/background-header.png") no-repeat right center;
+  display: block;
+  height: 65px;
+  position: absolute;
+  right: -215px;
+  top: 0;
+  width: 215px;
+}
+.page-content h1.green,
+.page-content h1.green .border-right {
+  background-image: url("../images/layout/background-header-green.png");
+}
+.page-content .content {
+  background: transparent url("../images/layout/decal.png") no-repeat center bottom;
+  border-top: 3px solid #323232;
+  margin: 30px auto;
+  padding-bottom: 75px;
+  width: 715px;
+}
+.page-content h2,
+.page-content .as-h2 {
+  font-size: 14px;
+}
+
+
+.page-footer {
+  background: transparent url("../images/layout/background-footer.png") repeat-x center top;
+  clear: both;
+  height: 95px;
+  margin-top: -95px;
+  position: relative;
+  text-align: center;
+  z-index: 5;
+}
+.page-footer .content {
+  background: transparent url("../images/layout/footer-arc.png") no-repeat center top;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 auto;
+  padding-top: 35px;
+  position: relative;
+  top: -6px;
+  width: 679px;
+}
+.page-footer p {
+  margin: 0 0;
+}
+.page-footer a {
+  text-decoration: none;
+}
+.page-footer a:hover {
+  text-decoration: underline;
+}
+
+
+.background-content {
+  height: 900px;
+  left: 0;
+  min-width: 715px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 0;
+}
+.background-content img {
+  min-height: 900px;
+  min-width: 100%;
+}
+.background-content.homepage {
+  height: 1200px;
+}
+.background-content.homepage img {
+  min-height: 1200px;
+  min-width: 100%;
+}
