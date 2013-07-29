@@ -96,9 +96,12 @@ a img {
   padding-bottom: 95px;
   padding-top: 60px;
   position: relative;
-  margin-top: 490px;
+  margin-top: 180px;
   text-align: center;
   z-index: 5;
+}
+.page-content .background {
+  background: #eeebe5 url("../images/layout/background-body.png") repeat center top;
 }
 .homepage-content {
   color: #fff;
